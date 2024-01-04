@@ -45,7 +45,7 @@ deleteBtn.addEventListener('dblclick', function() {
 // Function to display the leads in list items
 
 function render(leads) {
-    listItems = ""
+    let listItems = ""
     for(let i = 0; i < leads.length; i++) {
         listItems += 
         `<li>
